@@ -42,11 +42,10 @@ style_path = tf.keras.utils.get_file('starry.jpg','https://encrypted-tbn0.gstati
 Feel free to experiment with the hyperparameters such as 'learning_rate', 'style_weight', 'content_weight', and 'total_variation_weight' to achieve different artistic effects.
 
 ### Evaluation Criteria
-We can try and assess how accurately the model replicates the artistic style of the reference artwork, by comparing the stylized image with the reference artwork.
+* We can try and assess how accurately the model replicates the artistic style of the reference artwork, by comparing the stylized image with the reference artwork.
 This can be achieved by evaluating the similarity in brush strokes, color palette, and overall visual elements.
-We can also evaluate the model's ability to retain the key content and structure of the original artwork while applying the new style, by comparing the stylized image with the original artwork.
-And focusing on the preservation of objects, shapes, and spatial relationships.
-We can also examine the consistency of the applied style throughout the entire stylized image, by analyzing different regions of the image to ensure a coherent application of the chosen artistic style without noticeable inconsistencies.
+* We can also evaluate the model's ability to retain the key content and structure of the original artwork while applying the new style, by comparing the stylized image with the original artwork and focusing on the preservation of objects, shapes, and spatial relationships.
+* We can also examine the consistency of the applied style throughout the entire stylized image, by analyzing different regions of the image to ensure a coherent application of the chosen artistic style without noticeable inconsistencies.
 
 ## Acknowledgments
 * This implementation is based on the Neural Style Transfer technique pioneered by Gatys et al. (2015).
