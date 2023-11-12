@@ -12,7 +12,7 @@ This repository contains an implementation of Neural Style Transfer using Tensor
 * README.md: This document providing an overview of the project and instructions for usage.
 * photo.jpg: Sample content image used in the example.
 * starry.jpg: Sample style image used in the example.
-* Requirements.txt: This file contains the required dependencies.
+* requirements.txt: Contains the required dependencies.
 
 ## Getting Started
 1. Clone this repository.
