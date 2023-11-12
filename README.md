@@ -14,15 +14,8 @@ This repository contains an implementation of Neural Style Transfer using Tensor
 * starry.jpg: Sample style image used in the example.
 
 ## Getting Started
-1. Clone this repository:
-```
-git clone https://github.com/your-username/neural-style-transfer.git
-cd neural-style-transfer
-```
-2. Install the required dependencies. Ensure you have TensorFlow and other necessary libraries installed:
-```
-pip install -r requirements.txt
-```
+1. Clone this repository.
+2. Install the required dependencies. Ensure you have TensorFlow and other necessary libraries installed.
 3. Run the neural_style_transfer.ipynb notebook using Jupyter or your preferred Python environment.
 
 ## Usage
