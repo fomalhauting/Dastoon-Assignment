@@ -1,5 +1,6 @@
 # Dastoon-Assignment
 
+
 ## Problem Statement
 The goal of this assignment was to develop a deep learning model that can take an existing artwork as inspiration and apply its unique artistic style to a completely new and original piece. Essentially, the model should be capable of analyzing the specific aesthetic characteristics of a chosen artwork and then use this understanding to transform another artwork, making it look like it was crafted by the same artist. In essence, the aim was to create a system that can mimic and adapt artistic styles, producing results that closely resemble the distinctive features of the selected art. This involves the model learning and replicating the intricate details, textures, and overall visual elements that define the chosen artistic style.
 
@@ -39,6 +40,13 @@ style_path = tf.keras.utils.get_file('starry.jpg','https://encrypted-tbn0.gstati
 
 ## Customization
 Feel free to experiment with the hyperparameters such as 'learning_rate', 'style_weight', 'content_weight', and 'total_variation_weight' to achieve different artistic effects.
+
+### Evaluation Criteria
+We can try and assess how accurately the model replicates the artistic style of the reference artwork, by comparing the stylized image with the reference artwork.
+This can be achieved by evaluating the similarity in brush strokes, color palette, and overall visual elements.
+We can also evaluate the model's ability to retain the key content and structure of the original artwork while applying the new style, by comparing the stylized image with the original artwork.
+And focusing on the preservation of objects, shapes, and spatial relationships.
+We can also examine the consistency of the applied style throughout the entire stylized image, by analyzing different regions of the image to ensure a coherent application of the chosen artistic style without noticeable inconsistencies.
 
 ## Acknowledgments
 * This implementation is based on the Neural Style Transfer technique pioneered by Gatys et al. (2015).
