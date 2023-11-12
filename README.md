@@ -12,11 +12,12 @@ This repository contains an implementation of Neural Style Transfer using Tensor
 * README.md: This document providing an overview of the project and instructions for usage.
 * photo.jpg: Sample content image used in the example.
 * starry.jpg: Sample style image used in the example.
+* Requirements.txt: This file contains the required dependencies.
 
 ## Getting Started
 1. Clone this repository.
 2. Install the required dependencies. Ensure you have TensorFlow and other necessary libraries installed.
-3. Run the neural_style_transfer.ipynb notebook using Jupyter or your preferred Python environment.
+3. Run the assignment_dashtoon.ipynb notebook using Jupyter or your preferred Python environment.
 
 ## Usage
 1. Set the content and style images: Modify the 'content_path' and 'style_path' variables in the notebook to point to your desired content and style images.
