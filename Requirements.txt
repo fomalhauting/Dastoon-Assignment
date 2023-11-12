@@ -1,5 +1,0 @@
-TensorFlow
-IPython
-Matplotlib
-NumPy
-PIL (Pillow)
